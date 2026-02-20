@@ -2185,7 +2185,7 @@ const files = [
                             const normalized = normalizeFileName(file);
                             const encoded = encodeURIComponent(normalized);
 
-                            fetch(`https://cdn.jsdelivr.net/gh/penguinhack3r/sgassets@main/clSINGLEFILE.html/${encoded}?t=${Date.now()}`)
+                            fetch(`https://cdn.jsdelivr.net/gh/penguinhack3r/sgassets@main/UGS-Files${encoded}?t=${Date.now()}`)
                                 .then(response => response.text())
                                 .then(text => {
                                     const newWin = window.open("about:blank", "_blank");
@@ -2243,3 +2243,4 @@ const files = [
 </body>
 
 </html>
+
